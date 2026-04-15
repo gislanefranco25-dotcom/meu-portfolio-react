@@ -14,8 +14,7 @@ function App() {
         <h2>Secretária de Governo</h2>
 
         <p>
-          Experiência em gestão administrativa, atendimento institucional
-          e organização de processos públicos.
+          Experiência em gestão administrativa, atendimento institucional e organização de processos públicos.
         </p>
 
         <a href="#projetos" className="botao">Ver Projetos</a>
@@ -23,16 +22,14 @@ function App() {
 
       <section className="sobre">
         <h2>Sobre mim</h2>
-
         <p>
-          Sou profissional da área pública com experiência em gestão administrativa,
-          atendimento institucional e organização de processos. Atualmente, estou em
-          transição para a área de tecnologia, cursando Análise e Desenvolvimento de Sistemas.
+          Sou profissional da área pública com experiência em gestão administrativa...
         </p>
       </section>
+
+      <Projetos />
     </>
   );
 }
 
 export default App;
-<Projetos />
